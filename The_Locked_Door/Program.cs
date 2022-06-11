@@ -27,7 +27,8 @@ public class Door
     public DoorStatus doorstatus { get; private set; }
     private int passcode;
 
-    public Door (int SetPassCode)    {
+    public Door(int SetPassCode)
+    {
         doorstatus = DoorStatus.Closed;
         passcode = SetPassCode;
     }
