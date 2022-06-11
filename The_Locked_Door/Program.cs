@@ -13,6 +13,15 @@ Console.ReadKey();
 
 
 
+
+while (true)
+{
+   
+
+
+
+}
+
 public class Door
 {
     public DoorStatus doorstatus { get; private set; }
