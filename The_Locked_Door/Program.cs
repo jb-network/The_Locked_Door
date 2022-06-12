@@ -26,7 +26,7 @@ int DoorSetup()
     Console.Clear();
     return IntialPin;
 }
-//Menu method, passes letter to main, unless the user exits the program. 
+//Menu method, passes letter to main, unless the user selects exit. 
 string UserMenu(Door newDoor, int intialPin)
 {
     string UserAction;
@@ -135,7 +135,6 @@ public class Door
             }
         }
     }
-
     internal void Unlock()
     {
         Console.WriteLine("You chose to 'Unlock' the door");
@@ -222,7 +221,6 @@ public class Door
             Console.Clear();
         }
     }
-
     internal void Open()
     {
 
@@ -247,6 +245,5 @@ public class Door
         }
     }
 }
-
 //Enum
 public enum DoorStatus { Open, Closed, Locked, Unlocked }
